@@ -9,6 +9,9 @@
 
 
     /* =========== main content 2 =========== */
+    .content2 article {
+        padding: 40px 30px;
+    }
 
 
 
@@ -31,7 +34,14 @@
 
 
     /* =========== main content 2 =========== */
-
+    .card-wrapper {
+        width: 100%;
+        min-width: 380px;
+    }
+    .card-wrapper .card-thumb img {
+        width: 100%;
+        height: auto;
+    }
 
 
     /* =========== main content 3 =========== */
