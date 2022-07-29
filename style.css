@@ -22,3 +22,100 @@
 
 
 /* =========== footer =========== */
+
+/* reusable css */
+
+footer{
+    display: flex;
+    padding: 50px 70px;
+    background-color: #283A2C;
+
+}
+
+.footer-height{
+    height: 150px;
+}
+
+.footer-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.footer-list-font {
+    font-family: 'Prata', serif;
+    color: #F7FFF9;
+}
+
+.footer-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #8F9C80;
+}
+
+.footer-text-info{
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+/* non reusable */
+
+footer .destinations{
+    width: 25%;
+    /* border: red solid; */
+}
+
+footer .destinations ul {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin-top: 20px;
+}
+
+footer .destinations li{
+    margin: 2px 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+
+footer .contact-person{
+    width: 50%;
+    align-items: center;
+
+}
+
+footer .contact-person .email{
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+footer .contact-person .email:hover{
+    border-bottom: 1px solid #F7FFF9;
+    transition-delay: 0.3s;
+}
+
+
+
+
+footer .social-media{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    /* border: red solid; */
+}
+
+footer .social-media i{
+    margin: 20px;
+    color: #fff;
+}
+
+
+
+
+
