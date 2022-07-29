@@ -24,6 +24,18 @@
         font-size: 32px;
     }
     /* =========== footer =========== */
+    footer .destinations li{
+        font-size: 16px;
+    }
+
+    .footer-title{
+        font-size: 13px;
+    }
+    
+    .footer-text-info{
+        font-size: 20px;
+    }
+    
 
 }
 
@@ -58,4 +70,64 @@
 
     /* =========== footer =========== */
 
+    footer{
+        display: block;
+        padding: 12px 30px;
+    }
+
+    .footer-height{
+        height: 80px;
+    }
+    
+    .footer-flex{
+        flex-direction: row;
+    }
+    
+    .footer-flex{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .footer-text-info{
+        font-size: 16px;
+    }
+
+    /* non reusable */
+
+    footer .destinations{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    footer .destinations ul{
+        display: flex;
+    }
+
+    footer .destinations li{
+        font-size: 14px;
+    }
+
+    footer .contact-person{
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .contact-person .email{
+        margin-top: 5px;
+    }
+
+    footer .social-media{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .social-media i{
+        margin: 20px;
+    }
+
+    
+  
 }
