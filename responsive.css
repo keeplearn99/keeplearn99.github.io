@@ -17,8 +17,12 @@
 
     /* =========== main content 3 =========== */
 
-
-
+    .contact{
+        width:50%
+    }
+    h1{
+        font-size: 32px;
+    }
     /* =========== footer =========== */
 
 }
@@ -45,8 +49,12 @@
 
 
     /* =========== main content 3 =========== */
-
-
+    .contact{
+        width:100%
+    }
+    h1{
+        font-size:24px;
+    }
 
     /* =========== footer =========== */
 

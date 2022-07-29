@@ -1,9 +1,9 @@
 /* reset */
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* =========== header =========== */
@@ -114,6 +114,70 @@
 
 /* =========== main content 3 =========== */
 
+.content3 {
+  margin: 0 auto;
+  max-width: 1600px;
+  font-family: "Roboto", sans-serif;
+  padding: 20px 0px;
+}
+
+.content3 h2{
+  color: #11999e ;
+}
+
+.content3 .contact-us {
+  padding: 20px 100px;
+}
+
+.medsos{
+  display: flex;
+  justify-content: center;
+}
+
+.medsos p{
+  padding-left: 15px;
+  }
+
+.form {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
 
 
+input,textarea {
+  width:100%;
+  padding: 10px 12px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border:1px solid#ced4da;
+  background-color: #f2f2f2;
+}
+
+.btn {
+  padding: 10px 18px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.message {
+  padding: 10px 30px;
+  background-color: #11999e;
+  cursor: pointer;
+  box-shadow: 0 3px #042425;
+}
+
+.message:active {
+  position: relative;
+  top: 3px;
+  box-shadow: none;
+}
+
+.message:hover{
+  color: yellow;
+}
 /* =========== footer =========== */
