@@ -116,9 +116,9 @@
 
 .content3 {
   margin: 0 auto;
-  max-width: 1600px;
   font-family: "Roboto", sans-serif;
   padding: 20px 0px;
+  background-color: aliceblue;
 }
 
 .content3 h2{
@@ -126,12 +126,14 @@
 }
 
 .content3 .contact-us {
-  padding: 20px 100px;
+  margin: auto;
+  padding: 10px;
 }
 
 .medsos{
   display: flex;
   justify-content: center;
+  padding:15px;
 }
 
 .medsos p{
@@ -139,21 +141,20 @@
   }
 
 .form {
-  margin-top: 25px;
-  display: flex;
-  justify-content: center;
+  max-width: 650px;
+  margin: auto;
+ 
 }
 
 
 input,textarea {
   width:100%;
-  padding: 10px 12px;
+  padding: 17px 12px;
   margin-top: 6px;
   margin-bottom: 10px;
   border-radius: 3px;
-  border:1px solid#ced4da;
-  background-color: #f2f2f2;
-}
+  border:0.5px solid#dadfe3;
+  }
 
 .btn {
   padding: 10px 18px;
