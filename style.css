@@ -8,9 +8,80 @@
 
 /* =========== header =========== */
 
+header {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+header .container {
+    margin: 10px 0px;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.logo {
+    width: 124px;
+}
+
+.header-left a {
+    line-height: 65px;
+    padding: 0 25px;
+    display: block;
+    float: right;
+    transition: all 0.5s;
+}
+
+.header-left a{
+    color: #178286;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: large;
+}
+
+.header-left a:hover {
+    color: #11999e;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a{
+    color: #178286;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: large;
+}
+
+.header-right a:hover {
+    color: #11999e;
+}
+
 
 /* =========== main content 1 =========== */
-
+.content1 {
+    margin-top: 80px;
+}
 
 
 /* =========== main content 2 =========== */
@@ -54,12 +125,12 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.card-wrapper:hover>.card-thumb img {
+.card-wrapper:hover > .card-thumb img {
     transform: scale(105%);
     filter: saturate(0.2) blur(1px) opacity(0.8);
 }
 
-.card-wrapper:hover>.card-thumb span {
+.card-wrapper:hover > .card-thumb span {
     z-index: 1;
     opacity: 0.8;
 }
@@ -152,7 +223,7 @@ textarea {
     margin-top: 6px;
     margin-bottom: 10px;
     border-radius: 3px;
-    border: 1px solid#ced4da;
+    border: 1px solid #ced4da;
     background-color: #f2f2f2;
 }
 
