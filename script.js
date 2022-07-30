@@ -13,7 +13,7 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
+S
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("slide");
@@ -31,5 +31,14 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   
 }
+
+// auto slide
+function autoSliders() {
+  setInterval(() => {
+    showSlides(slideIndex += 1)
+  }, 10000);
+}
+
+autoSliders()
 
 //end of carousel
