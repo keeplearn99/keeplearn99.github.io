@@ -2,7 +2,13 @@
 @media (max-width: 900px) {
 
     /* =========== header =========== */
+    header .container{
+        margin: 10px 30px;
+    }
 
+    .header-left a {
+        display: none;
+    }
 
     /* =========== main content 1 =========== */
 
@@ -46,7 +52,17 @@
 @media (max-width: 720px) {
 
     /* =========== header =========== */
+    header .container{
+        margin: 10px 20px;
+    }
 
+    .header-left a {
+        display: none;
+    }
+
+    .header-right a {
+        display: none;
+    }
 
     /* =========== main content 1 =========== */
 
