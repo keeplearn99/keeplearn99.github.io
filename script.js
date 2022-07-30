@@ -32,4 +32,14 @@ function showSlides(n) {
   
 }
 
+// auto slide
+function autoSliders() {
+  setInterval(() => {
+    showSlides(slideIndex += 1)
+  }, 10000);
+}
+
+autoSliders()
+
+
 //end of carousel
