@@ -71,7 +71,7 @@
     /* =========== main content 2 =========== */
     .card-wrapper {
         width: 100%;
-        min-width: 380px;
+        min-width: 320px;
     }
     .card-wrapper .card-thumb img {
         width: 100%;
