@@ -77,6 +77,14 @@ header .container {
     color: #11999e;
 }
 
+header .menu-icon {
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+
 
 /* =========== main content 1 =========== */
 .content1 {

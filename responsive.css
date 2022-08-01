@@ -10,6 +10,10 @@
         display: none;
     }
 
+    header .menu-icon{
+        display:block;
+    }
+
     /* =========== main content 1 =========== */
 
 
@@ -37,11 +41,11 @@
     .footer-title{
         font-size: 13px;
     }
-    
+
     .footer-text-info{
         font-size: 20px;
     }
-    
+
 
 }
 
@@ -59,6 +63,10 @@
 
     .header-right a {
         display: none;
+    }
+
+    header .menu-icon{
+        display:block;
     }
 
     /* =========== main content 1 =========== */
@@ -83,6 +91,34 @@
     h1{
         font-size:24px;
     }
+<<<<<<< Updated upstream
+=======
+   .medsos{
+        display: inline;
+        margin: auto;
+    }
+
+    .medsos p{
+        padding-bottom: 2px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .form {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .btn {
+        padding: 5px 9px;
+
+      }
+      .message {
+        padding: 5px 15px;
+
+      }
+
+>>>>>>> Stashed changes
 
     /* =========== footer =========== */
 
@@ -94,11 +130,11 @@
     .footer-height{
         height: 80px;
     }
-    
+
     .footer-flex{
         flex-direction: row;
     }
-    
+
     .footer-flex{
         flex-direction: row;
         align-items: center;
@@ -144,6 +180,6 @@
         margin: 20px;
     }
 
-    
-  
+
+
 }
